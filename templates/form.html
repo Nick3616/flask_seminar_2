@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}Форма регистрации{% endblock %}
+
+{% block content%}
+<form action = "/" method = "post">
+    Имя: <input type = "text" name = "name" placeholder = "Введите имя">
+    Email: <input type = "text" name = "email" placeholder = "Введите электронную почту">
+    <input type = "submit" value = "Нажми меня">
+</form>
+{% endblock %}
